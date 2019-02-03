@@ -1,0 +1,124 @@
+
+#mydiv {
+    margin-left: 500px;
+   }
+   
+   #group_login1{
+    margin-left: 500px;
+   }
+body{
+    background-image: url("image1.png")
+}
+#userbtn{
+    background-color: #563d7c;
+}
+
+#group{
+  background-color: #563d7c;
+  color: white;
+}
+#group_btn{
+  background-color: #563d7c;
+  color: white;
+}
+#group_general_button{
+  background-color: #563d7c;
+  color: white;
+}
+#group_group{
+  background-color: #563d7c;
+  color: white;
+}
+
+.rounded1{
+  color: white;
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 7px;
+  background-color: #563d7c;
+}
+
+
+/* message css */
+
+.talk-bubble {
+    margin: 40px;
+  display: inline-block;
+  position: relative;
+    width: 200px;
+    height: auto;
+    background-color: #563d7c;
+    color: white;
+}
+.round{
+  border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+  }
+
+/*Right triangle, placed bottom left side slightly in  class=" talk-bubble tri-right round btm-left talktext block" */
+.tri-right.border.btm-left:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -8px;
+  right: auto;
+  top: auto;
+    bottom: -40px;
+    border: 32px solid;
+    border-color: transparent transparent transparent #666;
+}
+.tri-right.btm-left:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0px;
+  right: auto;
+  top: auto;
+    bottom: -20px;
+    border: 22px solid;
+    border-color: transparent transparent transparent #563d7c;
+}
+
+
+/*Right triangle, placed bottom right side slightly in* class="talk-bubble tri-right round btm-right" */
+.tri-right.border.btm-right:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: -8px;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #666 #666 transparent transparent;
+}
+.tri-right.btm-right:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: auto;
+	right: 8px;
+	bottom: -14px;
+	border: 12px solid;
+	border-color:  #563d7c #563d7c transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext{
+  padding: 1em;
+    text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+.block
+{
+    display: block;
+}
